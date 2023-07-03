@@ -46,3 +46,10 @@ lo que significa que puede iniciar una operación de E/S (como leer o escribir e
 
  es una herramienta que permite administrar múltiples versiones de Node.js en un sistema. Con NVM, puedes instalar, cambiar y administrar fácilmente las versiones de Node.js en tu entorno de desarrollo.
 
+
+Nodemon:
+npm i -E -D nodemon
+scripts => "dev":"nodemon --quiet start"
+
+ package.json:
+npm init -y

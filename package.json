@@ -1,0 +1,15 @@
+{
+  "name": "fundamendos_node",
+  "version": "1.0.0",
+  "description": "node es transcopilador, su lenguaje es js y su franwork es express.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --quiet start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
