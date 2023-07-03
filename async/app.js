@@ -26,14 +26,14 @@ async function adios(nombre) {
 }
 
 async function main() {
-console.log("Empezamos el proceso");
+console.group("proceso");
   let nombre = await hola("jose david");
   await hablar(nombre);
   await hablar(nombre);
   await hablar(nombre);
   await hablar(nombre);
   await adios(nombre);
-console.log("Terminamos el proceso");
+console.log("final proceso");
 }
 
 main();
