@@ -10,6 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "2.0.22"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "puppeteer": "^20.7.4",
+    "sharp": "^0.32.1"
   }
 }
