@@ -8,6 +8,20 @@ Node.js utiliza un modelo de E/S sin bloqueo y basado en eventos, lo que signifi
 
 usa npm como administrador de paquetes
 
+#### *Asincronia de Node:*
+
+**Event Queue:** Contiene todos los eventos que se generan por nuestro código (Funciones, peticiones, etc.), estos eventos quedan en una cola que van pasando uno a uno al Event Loop.
+
+**Event Loop:** Se encarga de resolver los eventos ultra rápidos que llegan desde el Event Queue. En caso de no poder resolverse rápido, enviá el evento al Thread Pool.
+
+**Thread Pool:** Se encarga de gestionar los eventos de forma asíncrona. Una vez terminado lo devuelve al Event Loop. El Event Loop vera si lo pasa a Event Queue o no.
+
+
+
+#### *Variables de entorno:*
+
+En caso de querer tener variables de entorno en un archivo, puede utilizar [dotenv](https://www.npmjs.com/package/dotenv), de esta manera puede crear el archivo .env y ahí configurar las variables necesarias.Y luego accederlas donde las necesite
+
 ## npm (Node Package Manager)
 
 npm te permite descargar, instalar y administrar fácilmente paquetes y módulos de JavaScript de código abierto que puedes utilizar en tus aplicaciones.
@@ -15,6 +29,52 @@ npm te permite descargar, instalar y administrar fácilmente paquetes y módulos
 **Arquitectura orientada a módulos** => node.js
 
  Node.js utiliza el sistema de módulos de CommonJS, lo que facilita la reutilización de código y la creación de aplicaciones modularizadas. Esto permite a los desarrolladores separar el código en módulos y utilizar paquetes de terceros fácilmente a través del administrador de paquetes npm.
+
+*\#Iniciar un proyecto*
+
+ npm init 
+
+*#Iniciar un proyecto con configuración automática*
+
+ npm init -y
+
+ *#Instalar dependencias para producción*
+
+npm install nombreDelPaquete --save  
+
+*#Alternativa 2 de Instalar dependencias para producción o desarrollo* 
+
+npm i nombreDelPaquete -S  
+
+*#Instalar dependencias para desarrollo*
+
+npm install nombreDelPaquete --save-dev 
+
+o: npm i nombreDelPaquete -D 
+
+*#Instalar dependencias de manera global* 
+
+npm install -g nombreDelPaquete 
+
+o: npm i -g nombreDelPaquete 
+
+*#Instalar una versión especifica de una dependencia* 
+
+npm install -g nombreDelPaquete@1.0.0 
+
+*#Desinstalar dependencias*  
+
+npm uninstall nombreDelPaquete 
+
+*#Ver dependencias desactualizadas* 
+
+npm outdate 
+
+*#Actualizar las dependencias desactualizadas* 
+
+npm update
+
+------
 
 **Escalabilidad**
 
@@ -46,10 +106,32 @@ lo que significa que puede iniciar una operación de E/S (como leer o escribir e
 
  es una herramienta que permite administrar múltiples versiones de Node.js en un sistema. Con NVM, puedes instalar, cambiar y administrar fácilmente las versiones de Node.js en tu entorno de desarrollo.
 
+##### **Nodemon:**
 
-Nodemon:
 npm i -E -D nodemon
 scripts => "dev":"nodemon --quiet start"
 
- package.json:
+#####  **package.json:**
+
 npm init -y
+
+#####  **:env** => Crea un archivo .env en la raíz de tu proyecto y define las variables de entorno en él
+
+npm install dotenv
+require('dotenv').config();
+
+#####  **bcrypt:** => encriptar contraseñas
+
+npm i bcrypt
+
+#####  **moment:** => mostrar fechas
+
+npm i moment
+
+#####  **sharp:** => imagenes
+
+npm i sharp
+
+#####  **sharpuppeteerp:** => scraping
+
+npm i puppeteer
