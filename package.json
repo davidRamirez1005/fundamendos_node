@@ -4,7 +4,8 @@
   "description": "node es transcopilador, su lenguaje es js y su franwork es express.",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon --quiet start"
+    "dev": "nodemon --quiet start",
+    "david":"node modulos/cowsay.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "cowsay": "^1.5.0",
     "dotenv": "^16.3.1",
     "moment": "^2.29.4",
     "puppeteer": "^20.7.4",
