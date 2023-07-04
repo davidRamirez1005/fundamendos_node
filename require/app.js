@@ -1,4 +1,4 @@
-const datos = require('./datos.json')
+import datos from './datos.json';
 
 console.log('====================================');
 console.log("json :",datos);

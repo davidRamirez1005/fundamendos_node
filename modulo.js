@@ -1,9 +1,7 @@
-let saludar = () => {
-    return "hola mundo"
-}
-module.exports={
-    saludar,
-    dato : () =>{
-        return "bebe"
-    }
-}
+export function saludar() {
+    console.log('¡Hola!');
+  }
+  
+  export const dato = () => {
+    return 'bebe';
+  };

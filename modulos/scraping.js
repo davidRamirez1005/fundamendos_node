@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
 (async () => {
     console.log('lanzamos navegador');
@@ -17,5 +17,5 @@ const puppeteer = require('puppeteer');
     console.log(titulo1);
     console.log('Cerramos navegador');
     browser.close();
-    console.log('Navegardor cerrado');
+    console.log('Navegador cerrado');
 }) ();

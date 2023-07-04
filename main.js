@@ -1,15 +1,16 @@
-const config = require('./modulo')
+import { saludar, dato }from './modulo.js';
 /**
  * ?de esta manera puede crear el archivo .env y ahí configurar las variables necesarias.Y luego accederlas donde las necesite
  */
-require('dotenv').config();
+import dotenv from 'dotenv';
 
+dotenv.config();
 /**
  * ! llamar las funciones que fueron importadas del archivo modulo
  */
 // console.log(config);
-console.log(config.saludar());
-console.log(config.dato());
+console.log(saludar());
+console.log(dato());
 
 
 /**
@@ -41,5 +42,6 @@ console.log("hola " + nombre);
 /**
  * ? direccion completa hacia al archivo y direccion hacia la carpeta
  */
-console.log(__filename);
-console.log(__dirname);
+// console.log(__filename);
+// console.log(__dirname);
+console.log(import.meta.url);

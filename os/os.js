@@ -1,4 +1,4 @@
-const os = require('os');
+import os from 'os';
 
 console.log(os.hostname());//  Voy a saber el hostname de la máquina
 console.log(os.networkInterfaces());// Puedo acceder a mi interfaz de red activas en mi máquina, puedo saber  IPVX

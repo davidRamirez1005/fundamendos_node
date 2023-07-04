@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "node es transcopilador, su lenguaje es js y su franwork es express.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon --quiet start",
-    "david":"node modulos/cowsay.js"
+    "david": "node modulos/cowsay.js"
   },
   "keywords": [],
   "author": "",

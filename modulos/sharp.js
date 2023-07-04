@@ -1,4 +1,4 @@
-const sharp = require('sharp');
+import sharp from 'sharp';
 
 const inputPath = '/modulos/img/rata.png';
 const outputPath = '/modulos/img/rata2.0.png';

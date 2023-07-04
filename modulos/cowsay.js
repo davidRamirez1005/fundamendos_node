@@ -1,9 +1,9 @@
-const cowsay = require('cowsay')
+import cowsay from 'cowsay';
 
 
 console.log(cowsay.say({
- text: ':o que interesante esto jajaja ._. soy un a nimal!',
- f : 'dragon-and-cow'
+ text: ':o que interesante esto jajaja ._. soy un animal!',
+ f : 'satanic'
 }))
 
 

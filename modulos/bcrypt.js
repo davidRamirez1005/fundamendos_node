@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt')
+import bcrypt from 'bcrypt';
 
 let password = 'contrasenia'
 async function encriptar(){
