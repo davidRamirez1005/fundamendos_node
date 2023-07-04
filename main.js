@@ -1,5 +1,8 @@
 const config = require('./modulo')
-
+/**
+ * ?de esta manera puede crear el archivo .env y ahí configurar las variables necesarias.Y luego accederlas donde las necesite
+ */
+require('dotenv').config();
 
 /**
  * ! llamar las funciones que fueron importadas del archivo modulo
@@ -12,8 +15,9 @@ console.log(config.dato());
 /**
  * ! variable de entorno
  */
-// let nombre = process.env.NOMBRE
-// console.log("hola " + nombre);
+let nombre = process.env.NAME
+console.log("hola " + nombre);
+
 
 
 /**
