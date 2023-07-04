@@ -115,7 +115,7 @@ scripts => "dev":"nodemon --quiet start"
 
 npm init -y
 
-#####  **:env** => Crea un archivo .env en la raíz de tu proyecto y define las variables de entorno en él
+#####  **.env** => Crea un archivo .env en la raíz de tu proyecto y define las variables de entorno en él
 
 npm install dotenv
 require('dotenv').config();
@@ -132,6 +132,6 @@ npm i moment
 
 npm i sharp
 
-#####  **sharpuppeteerp:** => scraping
+#####  **puppeteerp:** => scraping
 
 npm i puppeteer
