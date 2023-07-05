@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --quiet start",
+    "dev": "nodemon --quiet",
     "david": "node modulos/cowsay.js"
   },
   "keywords": [],

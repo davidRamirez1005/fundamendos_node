@@ -111,6 +111,8 @@ lo que significa que puede iniciar una operación de E/S (como leer o escribir e
 npm i -E -D nodemon
 scripts => "dev":"nodemon --quiet start"
 
+De forma nativa: 
+node --watch
 #####  **package.json:**
 
 npm init -y
