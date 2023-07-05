@@ -3,7 +3,7 @@ import cowsay from 'cowsay';
 
 console.log(cowsay.say({
  text: ':o que interesante esto jajaja ._. soy un animal!',
- f : 'satanic'
+ f : 'surgery'
 }))
 
 
@@ -21,7 +21,6 @@ console.log(cowsay.say({
 // 'eyes'
 // 'flaming-sheep'
 // 'ghostbusters'
-// 'head-in'
 // 'kiss'
 // 'kitty'
 // 'mech-and-cow'
@@ -34,7 +33,6 @@ console.log(cowsay.say({
 // 'sheep'
 // 'skeleton'
 // 'small'
-// 'sodomized'
 // 'squirrel'
 // 'stegosaurus'
 // 'stimpy'
