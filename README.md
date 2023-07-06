@@ -1,6 +1,6 @@
 # NODE.JS
 
-node es transcopilador, su lenguaje es js y su franwork es express.
+node es transcopilador, su lenguaje es js y su framework es express.
 
 se basa en el motor de JavaScript V8 de Google Chrome. A diferencia de la ejecución de JavaScript en un navegador web, Node.js permite ejecutar código JavaScript en el lado del servidor
 
@@ -137,3 +137,18 @@ npm i sharp
 #####  **puppeteerp:** => scraping
 
 npm i puppeteer
+
+
+peticiones HTTP:
+
+Es el protocologo de comunicación
+que permite las transferencias de información en la web.
+
+Porque es importante ?
+Un lenguaje comÚn para todas las comunicaciones.
+
+Cómo funciona una petición?
+Cliente —> Internet --> servidor Y luego se devuelve la respuesta
+Cliente <— Internet <— servidor
+
+La diferencia de http y https es que https pasa por un canal de encriptacion haciendo que los datos que se envían por Internet sean imposibles de entender y cuando llegan al servido estos se descifra.
