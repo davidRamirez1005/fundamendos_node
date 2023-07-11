@@ -138,6 +138,9 @@ npm i sharp
 
 npm i puppeteer
 
+#####  **joi:** => validacion de datos
+
+npm i joi
 
 peticiones HTTP:
 
@@ -152,3 +155,12 @@ Cliente —> Internet --> servidor Y luego se devuelve la respuesta
 Cliente <— Internet <— servidor
 
 La diferencia de http y https es que https pasa por un canal de encriptacion haciendo que los datos que se envían por Internet sean imposibles de entender y cuando llegan al servido estos se descifra.
+
+
+Para instalar eslint:
+
+npm install -D eslint
+
+Para configurarlo:
+
+npx eslint --init
