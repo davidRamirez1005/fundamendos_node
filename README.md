@@ -142,22 +142,21 @@ npm i puppeteer
 
 npm i joi
 
-peticiones HTTP:
+### peticiones HTTP:
 
 Es el protocologo de comunicación
 que permite las transferencias de información en la web.
 
-Porque es importante ?
-Un lenguaje comÚn para todas las comunicaciones.
+*Porque es importante ?*
+Un lenguaje comun para todas las comunicaciones.
 
-Cómo funciona una petición?
+*Cómo funciona una petición?*
 Cliente —> Internet --> servidor Y luego se devuelve la respuesta
 Cliente <— Internet <— servidor
 
 La diferencia de http y https es que https pasa por un canal de encriptacion haciendo que los datos que se envían por Internet sean imposibles de entender y cuando llegan al servido estos se descifra.
 
-
-Para instalar eslint:
+**Para instalar eslint:**
 
 npm install -D eslint
 
