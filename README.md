@@ -163,3 +163,15 @@ npm install -D eslint
 Para configurarlo:
 
 npx eslint --init
+
+<hr/>
+
+las cookies son pequeños fragmentos de información que se almacenan en el lado
+del cliente (generalmente en el navegador) y se utilizan para realizar un
+seguimiento de la información relacionada con la sesión del usuario o para
+almacenar preferencias específicas.
+
+DTO significa Data Transfer Object (Objeto de Transferencia de Datos). Es un
+patrón de diseño que se utiliza en la programación de software, especialmente en
+arquitecturas de varias capas, donde se necesita transferir datos entre capas o
+componentes del software.
